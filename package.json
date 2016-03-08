@@ -1,0 +1,14 @@
+{
+  "name": "typescript-rollup-boilerplate",
+  "version": "0.0.0",
+  "scripts": {
+    "watch": "watch \"rollup -c --output build/bundle.js\" src"
+  },
+  "author": "Oliver Bøving",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.25.4",
+    "rollup-plugin-typescript": "^0.6.0",
+    "watch": "^0.17.1"
+  }
+}
